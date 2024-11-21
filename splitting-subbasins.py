@@ -15,10 +15,6 @@ subcuencas = gdf['Subcuenca'].unique()
 print(subcuencas)
 # Filter the subbasins based on a certain attribute
 # Replace 'your_attribute_column' and 'value' accordingly
-#['BAJA DEL RIO PAUTE' 'BURGAY' 'COLLAY' 'CUENCA' 'JADAN' 'JUVAL'
-#'MACHANGARA' 'MAGDALENA' 'MAZAR' 'PAUTE' 'PINDILIG' 'PULPITO' 'RIO NEGRO'
-#'SANTA BARBARA' 'SIDCAY' 'TARQUI' 'TOMEBAMBA' 'YANUNCAY']
-
 # Loop through each unique subbasin and create a mask
 for subcuenca in subcuencas:
     # Create mask for the current subbasin
