@@ -1,3 +1,6 @@
+#Watch the video for this script here:
+#https://www.youtube.com/watch?v=Dnp-27qmjmY
+
 import geopandas as gpd
 import matplotlib.pyplot as plt
 
